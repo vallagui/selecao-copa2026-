@@ -5,7 +5,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seleção Brasileira – Copa do Mundo 2026</title>
+    <link rel="stylesheet" href="css/styles.css">
     <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
     </style>
 </head>
 
@@ -18,111 +32,96 @@
                 <p>Copa do Mundo 2026 · EUA · MEX · CAN</p>
             </div>
         </div>
-        <nav> das
+        <nav>
             <a href="#convocados">Convocados</a>
             <a href="#agenda">Agenda</a>
             <a href="#apoio">Apoiar</a>
         </nav>
     </header>
+    
     <div class="banner">
         <h2> Rumo ao Hexa!</h2>
         <p>A Canarinho está na Copa. Confira os convocados, a agenda de jogos e envie seu apoio.</p>
         <a href="#apoio">Enviar Apoio</a>
     </div>
+    
     <main>
         <section id="convocados">
             <h2>Convocados</h2>
             <p>Os jogadores que vão defender as cinco estrelas na Copa do Mundo 2026.</p>
 
             <div class="cards">
-
                 <div class="card">
                     <div class="numero">01</div>
                     <div class="posicao">Goleiro</div>
-                    <h3>Ederson</h3>
-                    <p class="clube">Manchester City · ING</p>
+                    <h3>Alisson</h3>
                 </div>
 
                 <div class="card">
-                    <div class="numero">02</div>
+                    <div class="numero">04</div>
                     <div class="posicao">Zagueiro</div>
-                    <h3>Marquinhos</h3>
-                    <p class="clube">Paris Saint-Germain · FRA</p>
+                    <h3>Magalhães</h3>
                 </div>
 
                 <div class="card">
                     <div class="numero">06</div>
                     <div class="posicao">Lateral</div>
-                    <h3>Danilo</h3>
-                    <p class="clube">Juventus · ITA</p>
+                    <h3>Alex Sandro</h3>
                 </div>
 
                 <div class="card">
                     <div class="numero">08</div>
-                    <div class="posicao">Meia</div>
+                    <div class="posicao">Meio-campista</div>
                     <h3>Bruno Guimarães</h3>
-                    <p class="clube">Newcastle · ING</p>
-                </div>
-
-                <div class="card">
-                    <div class="numero">10</div>
-                    <div class="posicao">Meia</div>
-                    <h3>Rodrygo</h3>
-                    <p class="clube">Real Madrid · ESP</p>
                 </div>
 
                 <div class="card">
                     <div class="numero">07</div>
                     <div class="posicao">Atacante</div>
-                    <h3>Endrick</h3>
-                    <p class="clube">Real Madrid · ESP</p>
+                    <h3>Vini Jr</h3>
                 </div>
-
-                <div class="card">
-                    <div class="numero">11</div>
-                    <div class="posicao">Atacante</div>
-                    <h3>Raphinha</h3>
-                    <p class="clube">Barcelona · ESP</p>
-                </div>
-
-                <div class="card">
-                    <div class="numero">09</div>
-                    <div class="posicao">Atacante</div>
-                    <h3>Vinicius Jr.</h3>
-                    <p class="clube">Real Madrid · ESP</p>
-                </div>
-
             </div>
         </section>
-
 
         <section id="agenda">
             <h2>Agenda de Jogos</h2>
-            <p>Fase de Grupos – Grupo D</p>
+            <p>Fase de Grupos – Grupo C</p>
 
-            <div class="jogos">
-
-                <div class="jogo">
-                    <div class="data">14 JUN</div>
-                    <div class="confronto">🇧🇷 Brasil <span>VS</span> Croácia 🇨🇷</div>
-                    <div class="local">SoFi Stadium<br>Los Angeles · EUA</div>
-                </div>
-
-                <div class="jogo">
-                    <div class="data">19 JUN</div>
-                    <div class="confronto">🇧🇷 Brasil <span>VS</span> Japão 🇯🇵</div>
-                    <div class="local">AT&T Stadium<br>Dallas · EUA</div>
-                </div>
-
-                <div class="jogo">
-                    <div class="data">24 JUN</div>
-                    <div class="confronto">🇧🇷 Brasil <span>VS</span> África do Sul 🇿🇦</div>
-                    <div class="local">Levi's Stadium<br>San Jose · EUA</div>
-                </div>
-
-            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Horário (BRT)</th>
+                        <th>Partida</th>
+                        <th>Local</th>
+                        <th>Status/Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>13 de junho</td>
+                        <td>19:00</td>
+                        <td>Brasil 1 - 1 Marrocos</td>
+                        <td>MetLife Stadium, Nova Jersey (EUA)</td>
+                        <td><strong>Encerrado</strong></td>
+                    </tr>
+                    <tr>
+                        <td>19 de junho</td>
+                        <td>21:30</td>
+                        <td>Brasil x Haiti</td>
+                        <td>Lincoln Financial Field, Filadélfia (EUA)</td>
+                        <td><em>A jogar</em></td>
+                    </tr>
+                    <tr>
+                        <td>24 de junho</td>
+                        <td>19:00</td>
+                        <td>Escócia x Brasil</td>
+                        <td>Hard Rock Stadium, Miami (EUA)</td>
+                        <td><em>A jogar</em></td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
-
 
         <section id="apoio">
             <h2>Envie seu Apoio</h2>
@@ -144,9 +143,7 @@
                 </form>
             </div>
         </section>
-
     </main>
-
 
     <footer>
         <div class="footer-info">
@@ -162,7 +159,6 @@
             <a href="#">▶ CBF TV</a>
         </div>
     </footer>
-
 </body>
 
 </html>

@@ -1,0 +1,184 @@
+/* =========================================
+   ESTILO EDITORIAL NEUTRO
+   ========================================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Fonte serifada para dar um ar mais "humano" e clássico */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #222;
+    background-color: #fff;
+    line-height: 1.7;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* =========================================
+   CABEÇALHO
+   ========================================= */
+header {
+    padding: 3rem 0;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.logo span {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-top: 1.5rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid transparent;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #000;
+}
+
+/* =========================================
+   BANNER E SEÇÕES
+   ========================================= */
+.banner {
+    padding: 4rem 0;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.banner h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.banner a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid #000;
+    margin-top: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    border-left: 3px solid #000;
+    padding-left: 1rem;
+}
+
+/* =========================================
+   CARDS (LISTA DE JOGADORES)
+   ========================================= */
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.card .numero {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-right: 2rem;
+    width: 40px;
+    color: #888;
+}
+
+.card .posicao {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 1rem;
+    color: #555;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #000;
+}
+
+td {
+    padding: 1rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+
+form button {
+    background: #000;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+
+footer {
+    padding: 4rem 0;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+@media (max-width: 600px) {
+    nav a { display: block; margin: 10px 0; }
+}
